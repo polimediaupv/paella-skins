@@ -1,0 +1,14 @@
+{
+  "name": "paella-skins",
+  "version": "1.32.0",
+  "description": "Skins for Paella player",
+  "keywords": ["paella", "player", "video", "skin", "theme"],
+  "license": "ECL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polimediaupv/paella-skins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polimediaupv/paella-skins/issues"
+  }
+}
