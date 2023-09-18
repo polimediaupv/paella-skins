@@ -38,7 +38,7 @@
 .button-group .button-plugin-wrapper .button-description,
 .button-group-title,
 .menu-button-title,
-button {
+.playback-bar button {
   font-family: roboto;
   font-weight: 600;
 }
@@ -110,7 +110,7 @@ button {
 /* align text in es.upv.paella.backwardButtonPlugin and es.upv.paella.forwardButtonPlugin */
 .playback-bar .button-plugins .button-plugin-container button[name="es.upv.paella.backwardButtonPlugin"] div,
 .playback-bar .button-plugins .button-plugin-container button[name="es.upv.paella.forwardButtonPlugin"] div{
-  margin-top: -10px;;
+  margin-top: -10px;
 }
 
 
