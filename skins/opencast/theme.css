@@ -38,7 +38,7 @@
 .button-group .button-plugin-wrapper .button-description,
 .button-group-title,
 .menu-button-title,
-button {
+.playback-bar button {
   font-family: roboto;
   font-weight: 600;
 }
@@ -89,11 +89,13 @@ button {
 /* buttons in playbar */
 .playback-bar .button-plugins .button-plugin-container button {
   border-radius: 7px;
+  line-height: 1.2;
 }
 
 .playback-bar .button-plugins {
   height: calc(var(--button-fixed-height) - 1px);
   padding: 4px;
+  box-sizing: content-box;
 }
 
 .playback-bar .button-plugins.left-side {
@@ -108,7 +110,7 @@ button {
 /* align text in es.upv.paella.backwardButtonPlugin and es.upv.paella.forwardButtonPlugin */
 .playback-bar .button-plugins .button-plugin-container button[name="es.upv.paella.backwardButtonPlugin"] div,
 .playback-bar .button-plugins .button-plugin-container button[name="es.upv.paella.forwardButtonPlugin"] div{
-  margin-top: -10px;;
+  margin-top: -10px;
 }
 
 
