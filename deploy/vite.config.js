@@ -2,6 +2,7 @@
 import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default {
+  base: "./",
   build: {
     chunkSizeWarningLimit: 2*1024
   },
