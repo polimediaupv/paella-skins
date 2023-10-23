@@ -23,7 +23,8 @@ jobs:
 
       - name: Build
         run: |
-          npm deploy
+          cd deploy
+          npm ci
           npm run build
 
       - name: Upload as artifact
