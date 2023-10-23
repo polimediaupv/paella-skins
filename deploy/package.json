@@ -1,0 +1,26 @@
+{
+  "name": "paella-skins-deploy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ECL",
+  "homepage": "https://paellaplayer.upv.es",
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-static-copy": "^0.17.0"
+  },
+  "dependencies": {
+    "paella-basic-plugins": "^1.44.0",
+    "paella-core": "^1.45.0",
+    "paella-slide-plugins": "^1.41.1",
+    "paella-user-tracking": "^1.42.0",
+    "paella-zoom-plugin": "^1.41.1"
+  }
+}
