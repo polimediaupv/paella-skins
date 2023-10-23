@@ -21,7 +21,8 @@
   /* --secondary-bg-color: rgb(32,32,32); */
   --secondary-bg-color-hover: #1F2937;
   --highlight-bg-color: #3073B8;
-  --highlight-bg-color-hover: #3a8bdd;
+  --highlight-bg-color-hover: #2c6fb2;
+  --highlight-bg-color-progress-indicator: #56a0f4;
   --main-bg-gradient: #1F2937;
   /* --main-border-color: rgba(125,125,125,0.4); */
   /* --video-container-background-color: #e4e4e4; */
@@ -36,6 +37,10 @@
 }
 
 
+.playback-bar .progress-indicator-container .progress-indicator-content,
+.playback-bar:hover .progress-indicator-container .progress-indicator-content {
+  background-color: var(--highlight-bg-color-progress-indicator);
+}
 
 
 .button-group .button-plugin-wrapper .button-description,
