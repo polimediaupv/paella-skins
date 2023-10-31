@@ -72,6 +72,14 @@ ul.menu-button-content li.menu-button-item button {
   background-color: var(--secondary-bg-color-hover);
 }
 
+.timeline-popup-content {
+  display: block;
+  background-color: color-mix(in srgb, var(--main-bg-color) 60%, transparent);
+}
+
+
+
+
 
 
 .progress-indicator-container {
