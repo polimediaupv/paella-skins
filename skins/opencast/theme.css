@@ -43,14 +43,20 @@
 }
 
 
-.button-group .button-plugin-wrapper .button-description,
 .button-group-title,
 .menu-button-title,
 .playback-bar button,
 .popup-content .title-bar {
   font-family: roboto;
-  font-weight: 600;
+  font-weight: bold;
 }
+
+.button-group .button-plugin-wrapper .button-description,
+ul.menu-button-content li.menu-button-item button {
+  font-family: roboto;
+  font-weight: normal;
+}
+
 
 .button-group .button-plugin-wrapper .button-description {
   font-family: roboto;
