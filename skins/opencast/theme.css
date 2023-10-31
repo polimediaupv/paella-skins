@@ -19,7 +19,7 @@
   --main-bg-color-hover: #1F2937;
 
   /* --secondary-bg-color: rgb(32,32,32); */
-  --secondary-bg-color-hover: #1F2937;
+  --secondary-bg-color-hover: #202020;
   --highlight-bg-color: #3073B8;
   --highlight-bg-color-hover: #2c6fb2;
   --highlight-bg-color-progress-indicator: #56a0f4;
@@ -46,10 +46,26 @@
 .button-group .button-plugin-wrapper .button-description,
 .button-group-title,
 .menu-button-title,
-.playback-bar button {
+.playback-bar button,
+.popup-content .title-bar {
   font-family: roboto;
   font-weight: 600;
 }
+
+.button-group .button-plugin-wrapper .button-description {
+  font-family: roboto;
+  text-align: center;
+  flex: 1;
+}
+
+.button-group .button-plugin-wrapper .button-description:hover {
+  color: unset;
+  text-shadow: unset;
+}
+.button-group .button-plugin-wrapper:hover {
+  background-color: var(--secondary-bg-color-hover);
+}
+
 
 
 .progress-indicator-container {
