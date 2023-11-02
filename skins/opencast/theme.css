@@ -72,13 +72,64 @@ ul.menu-button-content li.menu-button-item button {
   background-color: var(--secondary-bg-color-hover);
 }
 
-.timeline-popup-content {
+.captions-canvas .timeline-popup-content {
   display: block;
   background-color: color-mix(in srgb, var(--main-bg-color) 60%, transparent);
 }
 
 
+.captions-canvas.visible-ui .text-container {
+  bottom: 75px;
+}
 
+
+.captions-canvas.size-s .text-container {
+  font-size: 12px;
+  padding: 2px;
+  left: 5%;
+  right: 5%;
+  width: unset;
+}
+
+.captions-canvas.size-m .text-container {
+  font-size: 15px;
+  padding: 3px;
+  left: 8%;
+  right: 8%;
+  width: unset;
+}
+
+.captions-canvas.size-l .text-container {
+  font-size: 20px;
+  padding: 4px;
+  left: 10%;
+  right: 10%;
+  width: unset;
+}
+
+.captions-canvas.size-xl .text-container {
+  font-size: 25px;
+  padding: 5px;
+  left: 15%;
+  right: 15%;
+  width: unset;
+}
+
+.captions-canvas.size-xxl .text-container {
+  font-size: 30px;
+  padding: 6px;
+  left: 17%;
+  right: 15%;
+  width: unset;
+}
+
+.captions-canvas .text-container {
+  background-color: color-mix(in srgb, var(--main-bg-color) 70%, transparent);
+  /* left: 0;
+  right: 0;
+  width: fit-content;
+  margin: auto; */
+}
 
 
 
