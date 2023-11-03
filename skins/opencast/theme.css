@@ -134,6 +134,11 @@ ul.menu-button-content li.menu-button-item button {
   margin: auto; */
 }
 
+.button-group .button-plugin-wrapper .button-description,
+ul.menu-button-content li.menu-button-item button span.menu-title {
+  white-space: nowrap;
+}
+
 
 
 .progress-indicator-container {
