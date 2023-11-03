@@ -234,16 +234,6 @@
             "volumeAlwaysVisible": true
         },
 
-        "ch.ethz.paella.settingsButton2": {
-            "enabled": true,
-            "groupName": "settingsGroup2",
-            "side": "right",
-            "menuTitle": "Settings",
-            "tabIndex": 6,
-            "popUpType": "no-modal",
-            "description": "Settings"
-        },
-
         "es.upv.paella.keyboardShortcutsHelp": {
             "enabled": true,
             "order": 80,
