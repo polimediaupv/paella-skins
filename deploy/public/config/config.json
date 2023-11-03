@@ -89,6 +89,7 @@
             "enabled": true,
             "groupName": "settingsGroup",
             "description": "Settings",
+            "menuTitle": "Settings",
             "icon": "settings-icon.svg",
             "order": 4,
             "side": "right",
