@@ -143,6 +143,7 @@ ul.menu-button-content li.menu-button-item button span.menu-title {
 
 .progress-indicator-container {
   forced-color-adjust: none;
+  cursor: pointer;
 }
 
 .playback-bar .button-plugins .button-plugin-container div.non-interactive {
@@ -236,6 +237,7 @@ ul.menu-button-content li.menu-button-item button span.menu-title {
 .video-container .video-canvas .button-area button,
 .button-group .button-plugin-container button {
   outline-style: none;
+  cursor: pointer;
 }
 
 .player-container button:focus-visible,
@@ -246,4 +248,10 @@ ul.menu-button-content li.menu-button-item button span.menu-title {
   opacity: 1;
 }
 
+button.menu-item-type-button:not(.selected) {
+  cursor: pointer;
+}
 
+.volume-slider {
+  cursor: pointer;
+}
