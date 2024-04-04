@@ -257,6 +257,6 @@ button.menu-item-type-button:not(.selected) {
 }
 
 div.loader-container i {
-  width: 425px;
-  height: 425px;
+  width: 20%;
+  height: unset;
 }
