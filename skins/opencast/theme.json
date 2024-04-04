@@ -59,7 +59,9 @@
         { "plugin": "es.upv.paella.frameControlButtonPlugin","identifier": "photoIcon", "icon": "./icons/slides-icon.svg"},
 
         { "plugin": "es.upv.paella.nextSlideNavigatorButton","identifier": "arrowRightIcon", "icon": "./icons/slide-next-icon.svg"},
-        { "plugin": "es.upv.paella.prevSlideNavigatorButton","identifier": "arrowLeftIcon", "icon": "./icons/slide-prev-icon.svg"}
+        { "plugin": "es.upv.paella.prevSlideNavigatorButton","identifier": "arrowLeftIcon", "icon": "./icons/slide-prev-icon.svg"},
 
+        { "plugin": "previewContainer","identifier": "play", "icon": "./icons/circle-play.svg"},
+        { "plugin": "loader","identifier": "progressIndicator", "icon": "./icons/loader-circle.svg"}
     ]
 }
