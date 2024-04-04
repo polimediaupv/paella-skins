@@ -255,3 +255,8 @@ button.menu-item-type-button:not(.selected) {
 .volume-slider {
   cursor: pointer;
 }
+
+div.loader-container i {
+  width: 425px;
+  height: 425px;
+}
