@@ -259,4 +259,10 @@ button.menu-item-type-button:not(.selected) {
 div.loader-container i {
   width: 21%;
   height: unset;
+  animation: unset;
+  aspect-ratio: 1;
+}
+
+div.loader-container i svg {
+  animation: spin 1s linear infinite;
 }
