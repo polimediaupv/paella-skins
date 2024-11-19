@@ -152,7 +152,7 @@ ul.menu-button-content li.menu-button-item button span.menu-title {
 
 /* progress indicator style */
 .progress-indicator {
-  height: 25px;
+  height: 26px;
   width: calc(100% - 30px);
   margin-left: 15px;
 }
@@ -266,3 +266,7 @@ div.loader-container i {
 div.loader-container i svg {
   animation: spin 1s linear infinite;
 }
+
+.progress-indicator canvas {
+  opacity: 1;
+};

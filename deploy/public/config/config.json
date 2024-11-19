@@ -393,12 +393,12 @@
         },
 
         "es.upv.paella.slideMapProgressBarPlugin": {
-            "enabled": false,
+            "enabled": true,
             "markColor": {
                 "mouseOut": "#0A0A0A",
                 "mouseHover": "#A9A9A9"
             },
-            "markWidth": 3,
+            "markWidth": 2,
             "drawBackground": false
         },
 

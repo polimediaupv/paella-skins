@@ -26,10 +26,10 @@
         "plugins": {
             "es.upv.paella.slideMapProgressBarPlugin": {
                 "markColor": {
-                    "mouseOut": "#0A0A0A",
-                    "mouseHover": "#9CA3AF"
+                    "mouseOut": "#1F2937",
+                    "mouseHover": "#1F2937"
                 },
-                "markWidth": 3,
+                "markWidth": 2,
                 "drawBackground": false
             }
         }
